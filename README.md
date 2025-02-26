@@ -1,19 +1,39 @@
-## Vehicle Detection using YOLO and OpenCV
+# Tutorial Setup Guide
 
-- Implemented vehicle detection using **YOLO** and **OpenCV** to process video frames.
-- Displays:
-  - Bounding boxes around detected vehicles.
-  - Labels with the vehicle type and count.
-  - A real-time vehicle count per frame.
-  
-### Setup:
-1. **Create a Python Virtual Environment (venv)**:
-   - Navigate to your project directory.
-   - Run the following command to create a virtual environment:
-     ```bash
-     python -m venv venv
+## Setting Up the Environment
+
+### Create a Python Virtual Environment (venv)
+1. Navigate to your project directory.
+2. Run the following command to create a virtual environment:
+   ```sh
+   python -m venv venv
+   ```
+3. Activate the virtual environment:
+   - On Windows:
+     ```sh
+     venv\Scripts\activate
+     ```
+   - On macOS/Linux:
+     ```sh
+     source venv/bin/activate
      ```
 
-2. **Upload a Video File**:
-   - Place your video file in the appropriate directory.
-   - Make sure that the file name is pass through in main.py
+## Uploading a Video File
+1. Place your video file in the appropriate directory.
+2. Ensure that the file name is properly passed through in `main.py`.
+
+## Running the Project
+1. Install the required dependencies:
+   ```sh
+   pip install -r requirements.txt
+   ```
+2. Run the main script:
+   ```sh
+   python main.py
+   ```
+
+## Additional Notes
+- Ensure that all necessary dependencies are listed in `requirements.txt`.
+- Check `main.py` for any additional configurations or parameters needed for video processing.
+
+
